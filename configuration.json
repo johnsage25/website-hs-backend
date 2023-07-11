@@ -1,0 +1,69 @@
+{
+  "regions": [{}],
+  "osImages": [
+    {
+      "id": "ubuntu",
+      "title": "Ubuntu",
+      "icon": "/images/os/icon-ubuntu.svg",
+      "description": "",
+      "versions": [
+        { "value": "22.04.x64", "label": "22.04 LTS x64" },
+        { "value": "20.04.x64", "label": "20.04.5 LTS x64" },
+        { "value": "18.04.x64", "label": "18.04.4 LTS x64" }
+      ]
+    },
+    {
+      "id": "debian",
+      "title": "Debian",
+      "icon": "/images/os/icon-debian.svg",
+      "description": "",
+      "versions": [
+        { "value": "11.x64", "label": "11 x64" },
+        { "value": "10.x64", "label": "10 x64" }
+      ]
+    },
+    {
+      "id": "fedora",
+      "title": "Fedora",
+      "icon": "/images/os/icon-fedora.svg",
+      "description": "",
+      "versions": [
+        { "value": "37.x64", "label": "37 x64" },
+        { "value": "36.x64", "label": "36 x64" }
+      ]
+    },
+    {
+      "id": "centos",
+      "title": "CentOs",
+      "icon": "/images/os/icon-centos.svg",
+      "description": "",
+      "versions": [
+        { "value": "9.stream.x64", "label": "9 Stream x64" },
+        { "value": "8.stream.x64", "label": "8 Stream x64" },
+        { "value": "7.x64", "label": "7 x64" }
+      ]
+    },
+    {
+      "id": "almalinux",
+      "title": "AlmaLinux",
+      "icon": "/images/os/icon-alma.svg",
+      "description": "",
+      "versions": [
+        { "value": "Alma.9", "label": "Alma 9" },
+        { "value": "Alma.8", "label": "Alma 8" }
+      ]
+    },
+    {
+      "id": "rockylinux",
+      "title": "Rocky Linux",
+      "icon": "/images/os/icon-rockylinux.svg",
+      "description": "",
+      "versions": [
+        { "value": "9.0.x64", "label": "Rocky 9.0 x64" },
+        { "value": "8.6.x64", "label": "Rocky 8.6 x64" },
+        { "value": "8.5.x64", "label": "Rocky 8.5 x64" },
+        { "value": "8.4.x64", "label": "Rocky 8.4 x64" }
+      ]
+    }
+  ]
+}

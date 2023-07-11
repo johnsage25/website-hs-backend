@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="_319" serif:id="319">
+        <g id="New-Icons">
+            <g id="Card-Brands">
+                <g id="Color">
+                    <g id="Diners-Club">
+                        <path id="shape" d="M21.997,15.75L21.999,15.75C22.954,15.758 23.738,14.977 23.75,14.004L23.75,2.006C23.746,1.536 23.559,1.086 23.23,0.757C22.901,0.428 22.459,0.246 21.997,0.25L2.001,0.25C1.541,0.246 1.099,0.428 0.77,0.757C0.441,1.086 0.254,1.536 0.25,2.004L0.25,13.994C0.254,14.464 0.441,14.914 0.77,15.243C1.099,15.572 1.541,15.754 2.003,15.75L21.997,15.75ZM21.997,16.25L21.995,16.25L21.997,16.25Z" style="fill:white;fill-rule:nonzero;stroke:black;stroke-opacity:0.2;stroke-width:0.5px;"/>
+                        <path id="shape1" serif:id="shape" d="M10.002,2.052L10.002,2.036L14.002,2.036L14.002,2.052C17.138,2.281 19.564,4.892 19.564,8.036C19.564,11.18 17.138,13.79 14.002,14.02L14.002,14.036L10.002,14.036L10.002,14.02C6.867,13.79 4.44,11.18 4.44,8.036C4.44,4.892 6.867,2.281 10.002,2.052Z" style="fill:rgb(1,101,172);fill-rule:nonzero;"/>
+                        <path id="shape2" serif:id="shape" d="M11.602,11.428C13.037,10.918 13.996,9.559 13.996,8.036C13.996,6.512 13.037,5.154 11.602,4.644L11.602,11.428ZM9.202,4.644C7.767,5.154 6.808,6.512 6.808,8.036C6.808,9.559 7.767,10.918 9.202,11.428L9.202,4.644ZM10.402,13.236C7.53,13.236 5.202,10.908 5.202,8.036C5.202,5.164 7.53,2.836 10.402,2.836C13.274,2.836 15.602,5.164 15.602,8.036C15.602,10.908 13.274,13.236 10.402,13.236Z" style="fill:white;fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

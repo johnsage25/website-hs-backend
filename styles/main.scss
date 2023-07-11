@@ -1,0 +1,318 @@
+body {
+  background-color: #f4f4f5 !important;
+}
+.react-tel-input {
+  input {
+    height: 40px !important;
+    outline: none;
+  }
+}
+
+.otp-input {
+  height: 42px !important;
+  width: 48px !important;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.logo-small {
+  height: 36px;
+}
+
+.resend-b {
+  button {
+    background-color: transparent !important;
+    color: #1c7ed6 !important;
+    &:hover {
+      color: #075294 !important;
+    }
+  }
+}
+
+.mantine-Modal-header {
+  --tw-border-opacity: 1;
+  border-bottom: 1px solid rgb(229 231 235 / var(--tw-border-opacity));
+  // padding: 5px 0 13px;
+  // margin: 5px 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otp-code {
+  width: 3em !important;
+}
+#order-domain,
+#order-webcloud,
+#order-payment,
+#order-summary {
+  background-color: #f5f5f5 !important;
+}
+
+.rightCornerRibbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.rightCornerRibbonText {
+  position: absolute;
+  transform: rotate(45deg);
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: -8px;
+  right: -8px;
+}
+
+.rightCornerLargeRibbon {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
+
+.rightCornerLargeRibbonText {
+  position: absolute;
+  transform: rotate(45deg);
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: -10px;
+  right: -10px;
+}
+
+.leftCornerRibbon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.leftCornerRibbonText {
+  position: absolute;
+  transform: rotate(-45deg);
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: -8px;
+  left: -8px;
+}
+
+.leftCornerLargeRibbon {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+.leftCornerLargeRibbonText {
+  position: absolute;
+  transform: rotate(-45deg);
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: -10px;
+  left: -10px;
+}
+
+.rightRibbon {
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+.rightRibbonText {
+  position: absolute;
+  font-size: 0.8em;
+  top: 12px;
+  right: 7px;
+}
+
+.rightLargeRibbon {
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+
+.rightLargeRibbonText {
+  position: absolute;
+  font-size: 0.9em;
+  top: 21px;
+  right: 9px;
+}
+
+.leftRibbon {
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.leftRibbonText {
+  position: absolute;
+  font-size: 0.8em;
+  top: 12px;
+  left: 7px;
+}
+
+.leftLargeRibbon {
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.leftLargeRibbonText {
+  position: absolute;
+  font-size: 0.9em;
+  top: 21px;
+  left: 9px;
+}
+.cartStep {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+.carHeader {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+  background: #499bea; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #499bea 0%,
+    #207ce5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #499bea 0%,
+    #207ce5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #499bea 0%,
+    #207ce5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}
+
+.card-element {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  height: 44px;
+}
+
+.card-element.CardNumberElement {
+  width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.card-element.CardCvcElement {
+  width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.card-element.CardExpiryElement {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.card-element:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.tab-domain button[data-active] {
+  background: #f4f9ff;
+}
+
+#instancesprovisionid {
+  background-color: #f4f4f4;
+}
+.instant-cart-h {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #f6f6f6 47%,
+    #ededed 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #f6f6f6 47%,
+    #ededed 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #f6f6f6 47%,
+    #ededed 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  background: #3b82f6;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 18px 0 18px;
+  font-size: 14px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: color 0.2s;
+}
+
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #3b82f6;
+  border-top: 13px solid transparent;
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+}

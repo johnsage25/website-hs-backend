@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Invoice</title>
+    <style>
+        @media print {
+            @page {
+                size: landscape
+            }
+        }
+
+        @page {
+            size: A4 landscape;
+        }
+
+        /* Size in mm */
+        @page {
+            size: 100mm 200mm landscape;
+        }
+
+        /* Size in inches */
+        @page {
+            size: 4in 6in landscape;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+            border: none;
+            font-size: 11px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .invoice-details {
+            margin-bottom: 20px;
+        }
+
+        .invoice-details h2 {
+            /* margin-top: 0; */
+            font-size: 20px;
+            position: relative;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 11px;
+        }
+
+        .logo {
+            /* float: left; */
+            margin-right: 20px;
+            max-width: 180px;
+        }
+
+        .company-address {
+            float: right;
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .logo-container {
+            text-align: center;
+            width: 100%;
+            display: table;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="logo-container">
+        <img src="{{ APP_DOMAIN }}/hostspacing_logo.png" alt="Logo" border="0" class="logo">
+    </div>
+
+    <div class="invoice-details">
+
+
+        <div class="company-address">
+            <p>178 Lodgeville Road, Minneapolis,</p>
+            <p>Minnesota, USA 12345</p>
+            <p>Phone: (319) 455-6236</p>
+            <p>Email: info@hostspacing.com</p>
+        </div>
+
+        <div class="userdetails">
+            <h2>Invoice</h2>
+            <p>Invoice Number: {{ invoiceNo }}</p>
+            <p>Date: {{ createDate }}</p>
+            <p>Invoice To: {{ fullname }}</p>
+            <p>Your payment method is: {{ paymentMethod }}</p>
+            <p>Address: {{ address }}</p>
+            <p>Country: {{ country }}</p>
+        </div>
+    </div>
+    <table style="margin-top: 20px;">
+        <thead>
+            <tr>
+                <th width="50%">Description</th>
+                <th>Price</th>
+                <th>Tax</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {{#each items}}
+            <tr>
+                <td>{{ description }}</td>
+                <td>{{ amount }}</td>
+                <td>{{ taxed }}</td>
+                <td>{{ total_amount }}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" style=" border: none;"></td>
+                <td colspan="1" style=" font-weight: 700;">Subtotal:</td>
+                <td>{{ subTotal }}</td>
+            </tr>
+            <tr>
+                <td colspan="2" style=" border: none;"></td>
+                <td colspan="1" style=" font-weight: 700;">Tax:</td>
+                <td>{{ tax }}</td>
+            </tr>
+            <tr>
+                <td colspan="2" style=" border: none;"></td>
+                <td colspan="1" style=" font-weight: 700;">Total:</td>
+                <td>{{ total }}</td>
+            </tr>
+		</tfoot>
+    </table>
+
+    <div class="footer">
+        <p>Thank you for your business!</p>
+    </div>
+</body>
+
+</html>
